@@ -1,0 +1,85 @@
+body{
+    background-image: url("https://media.discordapp.net/attachments/1134641929456463913/1151582790249357342/1694629118995.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 125vh;
+  }
+  #titulo{
+    font: normal 30pt Fantasy;
+    position: absolute;
+    top: -25%;
+    left: 5%;
+  }
+  header{
+    background: #fcfcfc;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    height: 9%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    margin: 50;
+  }
+  #comprar {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 60%;
+    border: 1px solid #858585;
+    border-radius: 5px;
+  }
+  #camisa {
+    position: absolute;
+    top: 42%;
+    align-items: center;
+    max-height: 30%;
+    max-width: 40%;
+  }
+  p {
+    font: normal 15px Arial;
+    position: absolute;
+    top: 67%;
+    text-align: center;
+  }
+  #preco {
+    position: absolute;
+    top: 74%;
+    font: normal 25px Arial;
+  }
+  marc {
+    font: normal 20px Arial;
+    color: red;
+  }
+  button {
+    position: absolute;
+    top: 85%;
+    height: 5%;
+    width: 50%;
+    font: normal 20px Arial;
+  }
+  #mensagem {
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    background-color: #fffd96;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0px;
+    display: none;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+}
+  @media (min-width: 800px) {
+    #titulo{
+    font: normal 50pt Fantasy;
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    }
+  }
